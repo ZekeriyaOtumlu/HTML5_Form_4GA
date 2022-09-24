@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Create a HTML5 form</title>
+</head>
+
+<body>
+    <form>
+        <div class="form-row">
+            <div class="form-group col-lg-12">
+                <div class="alert alert-secondary" role="alert">
+                    <strong>  Payment Form Example </strong>
+                </div>
+            </div>
+            <div class="form-someInfo col-lg-10">
+                <div class="alert alert-danger">
+                    <strong>Some Fields are missing!!! </strong>Please Complete required fields:).
+                </div>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-5">
+                <label for="inputCard">Card #</label>
+                <input type="text" class="form-control" id="inputCard" placeholder="XXXXXXXXXXXXXXXXXXXXX">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="cvc">CVC #</label>
+                <input type="text" class="form-control" id="cvc" placeholder="0000">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="amount">Amount</label>
+                <input type="text" class="form-control" id="amount" placeholder="Amount">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputFirstName">First Name</label>
+                <input type="text" class="form-control" id="inputFirstName" placeholder="Enter Your First Name">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputLastName">Last Name</label>
+                <input type="text" class="form-control" id="inputLastName" placeholder="Enter Your Last Name">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Select State</option>
+                    <option>Florida</option>
+                    <option>New York</option>
+                    <option>California</option>
+                    <option>South Caroline</option>
+                </select>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="inputZip">Postal Code</label>
+                <input type="text" class="form-control" id="inputZip">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <input type="radio" name="creditcards" value="Discover">
+                <label for="Discover">Disc</label>
+                <input type="radio" name="creditcards" value="Visa">
+                <label for="Visa">Visa</label>
+                <input type="radio" name="creditcards" value="Amex">
+                <label for="Amex">Amex</label>
+                <input type="radio" name="creditcards" value="Other">
+                <label for="Other">Other</label>
+            </div>
+            <div class="form-group col-md-6">
+                <!-- <label for="text-area">Message</label> -->
+                <!-- <p class="p1">Message</p> -->
+                <!-- <textarea name="Message" id="text-area" size="20"></textarea> -->
+                <div class="form-group shadow-textarea">
+                    <label for="exampleFormControlTextarea6">Message</label>
+                    <textarea class="form-control z-depth-1" id="exampleFormControlTextarea6" rows="3" placeholder="Please type something here...:)"></textarea>
+                  </div>
+                <p>Add any notes here.</p>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-footer col-lg-12">
+                <div class="alert alert-secondary" role="alert" >
+                    <div class="buttons">
+                    <button type="button" class="btn btn-secondary" >Cancel</button>
+                    <button type="button" class="btn btn-primary" >Send</button>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+</body>
+
+</html>

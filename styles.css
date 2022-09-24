@@ -1,0 +1,29 @@
+body{
+    background-color: azure;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+form{
+    border: solid 1px lightgrey;
+   
+}
+.form-row{
+    /* /* margin: 5px 0px; */
+	padding: 8px;
+}
+.form-someInfo{
+    /* padding:5px; */
+    margin: 0px 50px;
+  
+
+}
+label, .p1{
+    font-weight: 700;
+}
+.buttons{
+    margin-left: 750px;
+
+}
